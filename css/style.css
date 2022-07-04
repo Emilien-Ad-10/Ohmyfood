@@ -8,11 +8,66 @@
 
 body{
     background: #ffffff;
-    max-width: 100%;
-    height: auto;
+    height: 100vh;
 }
 
 .wrapper{
     max-width: 100%;
-    height: auto;
+    height: 100vh;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-family: 'Shrikhand', sans-serif;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+
+.localisation{
+    border-top: 3px solid #cac2c2;
+    background: #e7e5e5;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-solid{
+    margin: 0 20px 0 -40px;
+}
+
+.Paris_Belleville{
+    color: #222;
+    font-weight: bold;
+}
+
+.présentation{
+    background: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-weight: bold;
+    margin: 20px 0 20px 0;
+}
+
+.accroche{
+    color: #111111;
+}
+
+.btn_header{
+    width: 190px;
+    height: 45px;
+    border-radius: 25px;
+    margin: 20px 0 40px 0;
+    background: -moz-linear-gradient();
+    cursor: pointer;
+}
+
+.btn_header span{
+    color: #ffffff;
 }
