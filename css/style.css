@@ -18,6 +18,8 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+/* HEADER */
+
 h1{
     font-family: 'Shrikhand', sans-serif;
     text-align: center;
@@ -37,7 +39,7 @@ h1{
     margin: 0 20px 0 -30px;
 }
 
-.Paris_Belleville{
+.localisation span{
     color: #333;
     font-weight: 600;
 }
