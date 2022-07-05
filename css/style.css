@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&family=Shrikhand&display=swap');
 
 *, ::after, ::before{
     box-sizing: border-box;
@@ -34,12 +34,12 @@ h1{
 }
 
 .fa-solid{
-    margin: 0 20px 0 -40px;
+    margin: 0 20px 0 -30px;
 }
 
 .Paris_Belleville{
-    color: #222;
-    font-weight: bold;
+    color: #333;
+    font-weight: 600;
 }
 
 .présentation{
@@ -51,23 +51,32 @@ h1{
 }
 
 h2{
-    font-weight: bold;
-    margin: 20px 0 20px 0;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 900;
+    margin: 40px 0 20px 0;
 }
 
 .accroche{
     color: #111111;
+    font-weight: 300;
+    font-size: 1.25rem;
+    text-align: center;
 }
 
 .btn_header{
-    width: 190px;
-    height: 45px;
+    width: 220px;
+    height: 50px;
     border-radius: 25px;
-    margin: 20px 0 40px 0;
-    background: -moz-linear-gradient();
+    box-shadow: 0 3px 9px #8d8d8d;
+    margin: 20px 0 60px 0;
+    background-image: linear-gradient(to top left, #9356DC, #FF79DA);
+    border: none;
     cursor: pointer;
 }
 
 .btn_header span{
     color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
 }
