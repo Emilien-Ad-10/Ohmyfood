@@ -5,6 +5,10 @@
 }
 
 @media screen and (max-width: 654px) {
+    .fonctionnement h2{
+        margin-left: -110px;
+        margin-bottom: 30px;
+    }
     .composition{
         margin-top: 20px;
     }

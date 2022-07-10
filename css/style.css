@@ -252,3 +252,59 @@ h2{
 .dégustation:hover .troisième{
     color: #cdb3f0;
 }
+
+/* SECTION RESTAURANTS */
+
+.restaurants{
+    width: 100%;
+    height: auto;
+    background: #f1f1f1;
+}
+
+.grille_restaurants{
+    width: 100%;
+    height: auto;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.la-palette-du-gout{
+    width: 25%;
+    height: 200px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #3d3d3d;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.A-table{
+    width: 100%;
+    height: 135px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.info-A-table{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3{
+    font-size: 1rem;
+    margin: 7px 0 15px 15px;
+}
+h3 span{
+    font-weight: 100;
+    color: #222;
+    margin-top: 5px;
+}
+
+.fa-heart{
+    color: #f1f1f1;
+}
