@@ -65,16 +65,18 @@ body{
 
 h2{
     text-align: center;
-    font-size: 2.1rem;
+    font-size: clamp(1.6rem, 4vw, 2.4rem);
     font-weight: 900;
-    margin: 40px 0 20px 0;
+    margin: 40px 0 10px 0;
+    padding: 0 50px;
 }
 
 .accroche{
     color: #868282;
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: clamp(1.16rem, 4vw, 1.5rem);
     text-align: center;
+    padding: 0 25px;
 }
 
 .btn_header{
@@ -103,13 +105,13 @@ h2{
 
 .fonctionnement{
     height: auto;
-    margin: 40px 0;
 }
 
 .étapes{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .choix{
@@ -118,6 +120,7 @@ h2{
     align-items: center;
     width: 300px;
     height: 70px;
+    margin-left: 20px;
     border-radius: 30px;
     font-weight: 900;
     border: 1px solid #f1f1f1;
@@ -153,6 +156,9 @@ h2{
 .choix:hover .fa-mobile-screen-button{
     color: #9356DC;
 }
+.choix:hover .première{
+    color: #cdb3f0;
+}
 
 .composition{
     display: flex;
@@ -160,6 +166,7 @@ h2{
     align-items: center;
     width: 300px;
     height: 70px;
+    margin-left: 20px;
     border-radius: 30px;
     font-weight: 900;
     border: 1px solid #f1f1f1;
@@ -195,6 +202,9 @@ h2{
 .composition:hover .fa-list-ul{
     color: #9356DC;
 }
+.composition:hover .deuxième{
+    color: #cdb3f0;
+}
 
 
 .dégustation{
@@ -203,6 +213,7 @@ h2{
     align-items: center;
     width: 300px;
     height: 70px;
+    margin-left: 20px;
     border-radius: 30px;
     font-weight: 900;
     border: 1px solid #f1f1f1;
@@ -238,24 +249,6 @@ h2{
 .dégustation:hover .fa-store{
     color: #9356DC;
 }
-
-/* RESPONSIVE */
-
-@media screen and (max-width: 500px){
-    .logo .desktop-logo{
-        display: none;
-    }
-    
-    .logo .responsive-logo{
-        display: flex;
-        margin-top: 30px;
-        margin-bottom: 15px;
-    }
-
-    .fonctionnement h2{
-        text-align: left;
-        font-size: 2.1rem;
-        font-weight: 900;
-        margin: 40px 0 20px 0;
-    }
+.dégustation:hover .troisième{
+    color: #cdb3f0;
 }

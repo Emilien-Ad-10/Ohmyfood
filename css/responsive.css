@@ -1,0 +1,66 @@
+@media screen and (max-width: 974px) {
+    .dégustation{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 654px) {
+    .composition{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .logo .desktop-logo{
+        display: none;
+    }
+    
+    .logo .responsive-logo{
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+}
+
+/* RESPONSIVE MOBILE */
+
+@media screen and (max-width: 375px) {
+    
+    /* LOCALISATION */
+    .fa-solid{
+        font-size: 1rem;
+    }
+    .localisation span{
+        font-size: 1.1rem;
+    }
+
+    /* PRESENTATION */
+    .btn_header{
+        width: 238px;
+        height: 50px;
+    }
+    .btn_header span{
+        font-size: 1rem;
+    }
+
+    /* FONCTIONNEMENT */
+    .fonctionnement h2{
+        text-align: left;
+        margin-left: -20px;
+        margin-bottom: 30px;
+    }
+    .étapes{
+        flex-direction: column;
+    }
+    .étapes div{
+        margin-bottom: 20px;
+    }
+    .première, .deuxième, .troisième{
+        margin-top: 20px;
+    }
+
+    /* FONCTIONNEMENT-CHOIX */
+    .fa-mobile-screen-button{
+        margin-left: -12px;
+    }
+}
