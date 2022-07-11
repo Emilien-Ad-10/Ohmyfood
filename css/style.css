@@ -105,6 +105,7 @@ h2{
 
 .fonctionnement{
     height: auto;
+    padding-bottom: 5%;
 }
 
 .étapes{
@@ -259,6 +260,8 @@ h2{
     width: 100%;
     height: auto;
     background: #f1f1f1;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
 }
 
 .grille_restaurants{
@@ -268,10 +271,13 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 2.5%;
+    margin-bottom: 2.5%;
 }
 
 .la-palette-du-gout{
-    width: 25%;
+    width: 45%;
     height: 200px;
     background: #ffffff;
     border-radius: 10px;
@@ -281,7 +287,7 @@ h2{
 
 }
 
-.A-table{
+.carte-n1{
     width: 100%;
     height: 135px;
     border-top-left-radius: 10px;
@@ -289,12 +295,104 @@ h2{
     object-fit: cover;
 }
 
-.info-A-table{
+.nouveau{
+    width: 100px;
+    height: auto;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #99E2D0;
+    background: rgb(153, 226, 208);
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    z-index: 100;
+}
+
+.info-carte-n1{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.la-note-enchantée{
+    width: 45%;
+    height: 200px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #3d3d3d;
+    position: relative;
+    cursor: pointer;
+    margin-left: 1.5%;
+
+}
+
+.carte-n2{
+    width: 100%;
+    height: 135px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.info-carte-n2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.a-la-francaise{
+    width: 45%;
+    height: 200px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #3d3d3d;
+    position: relative;
+    cursor: pointer;
+    margin-top: 1.5%;
+
+}
+
+.carte-n3{
+    width: 100%;
+    height: 135px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.info-carte-n3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.le-délice-des-sens{
+    width: 45%;
+    height: 200px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #3d3d3d;
+    position: relative;
+    cursor: pointer;
+    margin: 1.5% 0 0 1.5%;
+
+}
+
+.carte-n4{
+    width: 100%;
+    height: 135px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.info-carte-n4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* TITRE + ICONE CARTE MENU */
 h3{
     font-size: 1rem;
     margin: 7px 0 15px 15px;
@@ -306,5 +404,7 @@ h3 span{
 }
 
 .fa-heart{
-    color: #f1f1f1;
+    -webkit-text-fill-color: #ffffff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #1a1a1a;
 }

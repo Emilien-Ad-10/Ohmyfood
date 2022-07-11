@@ -5,12 +5,47 @@
 }
 
 @media screen and (max-width: 654px) {
+    
+    /* PRESENTATION */
+    .btn_header{
+        width: 238px;
+        height: 50px;
+    }
+    .btn_header span{
+        font-size: 1rem;
+    }
+    
     .fonctionnement h2{
         margin-left: -110px;
         margin-bottom: 30px;
     }
     .composition{
         margin-top: 20px;
+    }
+
+    .restaurants h2{
+        text-align: left;
+        padding: 0 30px;
+    }
+    .grille_restaurants{
+        flex-direction: column;
+    }
+    .la-palette-du-gout{
+        width: 90%;
+        margin-bottom: 3%;
+    }
+    .la-note-enchantée{
+        width: 90%;
+        margin-left: 0;
+    }
+    .a-la-francaise{
+        width: 90%;
+        margin-top: 3%;
+    }
+    .le-délice-des-sens{
+        width: 90%;
+        margin-left: 0;
+        margin-top: 3%;
     }
 }
 
@@ -57,7 +92,7 @@
         flex-direction: column;
     }
     .étapes div{
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
     .première, .deuxième, .troisième{
         margin-top: 20px;
