@@ -286,11 +286,6 @@ h2{
     cursor: pointer;
 
 }
-.la-palette-du-gout:hover .nouveau{
-    color: #ffffff;
-    background: rgba(153, 226, 208, 0.6);
-    border: 1px solid rgba(153, 226, 208, 0.6);
-}
 
 .carte-n1{
     width: 100%;
@@ -316,11 +311,6 @@ h2{
     cursor: pointer;
     margin-left: 1.5%;
 
-}
-.la-note-enchantée:hover .nouveau{
-    color: #ffffff;
-    background: rgba(153, 226, 208, 0.6);
-    border: 1px solid rgba(153, 226, 208, 0.6);
 }
 
 .carte-n2{
@@ -417,8 +407,8 @@ h3 span{
     margin-top: 5px;
 }
 
-.fa-heart{
-    -webkit-text-fill-color: #ffffff;
+ .fa-heart{
+    -webkit-text-fill-color:#ffffff;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #1a1a1a;
 }
