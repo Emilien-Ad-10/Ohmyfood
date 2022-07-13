@@ -426,7 +426,7 @@ h3 span{
     -webkit-background-clip: text;
     background-image: linear-gradient(to right, #ffffff, #ffffff, #FF79DA, #99E2D0);
     transition: background-position ease-out .6s;
-    background-size: 240%;
+    background-size: 270%;
     cursor: pointer;
 }
 
