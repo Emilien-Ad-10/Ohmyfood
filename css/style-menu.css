@@ -1,0 +1,58 @@
+*, ::after, ::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #ffffff;
+    height: auto;
+}
+
+.wrapper{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+.conteneur-i-logo{
+    display: flex;
+}
+
+.icone-retour{
+    width: 35%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.fa-arrow-left{
+    font-size: 30px;
+    color: #222;
+    margin-left: 100%;
+}
+
+.logo{
+    width: 65%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo .desktop-logo{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.logo .responsive-logo{
+    display: none;
+}
+
+.menu-illustration{
+    width: 100%;
+    height: 400px;
+}
+.la-palette-du-gout{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}

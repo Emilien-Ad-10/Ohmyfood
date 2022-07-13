@@ -1,0 +1,11 @@
+@media screen and (max-width: 850px){
+    .logo .desktop-logo{
+        display: none;
+    }
+    
+    .logo .responsive-logo{
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+}
