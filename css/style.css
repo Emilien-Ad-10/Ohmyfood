@@ -433,6 +433,7 @@ h3 span{
 .fa-heart:active{
     background-position: -70%;
     -webkit-text-stroke-color: #ffffff;
+    font-size: 27px;
 
 }
 
