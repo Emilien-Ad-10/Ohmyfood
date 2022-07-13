@@ -332,10 +332,11 @@ h2{
 .nouveau{
     width: 100px;
     height: auto;
+    color: #99e2d0;
     text-align: center;
     padding: 5px;
-    border: 1px solid #99E2D0;
-    background: rgb(153, 226, 208);
+    border: 1px solid rgba(153, 226, 208, .5);
+    background: rgba(153, 226, 208, .5);
     position: absolute;
     top: 20px;
     right: 10px;
@@ -408,9 +409,21 @@ h3 span{
 }
 
  .fa-heart{
-    -webkit-text-fill-color:#ffffff;
+    font-size: 25px;
+    color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #1a1a1a;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #ffffff, #ffffff, #FF79DA, #99E2D0);
+    transition: background-position ease-out .6s;
+    background-size: 240%;
+}
+
+.fa-heart:active{
+    background-position: -70%;
+    -webkit-text-stroke-color: #ffffff;
+
 }
 
 /* FOOTER */
