@@ -166,13 +166,77 @@ h2{
     border-top: 6px solid #99E2D0;
 }
 
-.entrées{
+.entrée-1{
     width: 95%;
     height: 55px;
     background: #fff;
     border-radius: 10px;
     display: flex;
     margin-bottom: 10px;
+    animation: apparition 1s;
+    animation-delay: .5s;
+    animation-fill-mode: both;
+}
+
+.menu-validation {
+    background-color: #99e2d0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0;
+    cursor: pointer;
+    transition: all 1.5s;   
+}
+
+.menu-validation .fa-check {
+    visibility: hidden;
+    color: #99e2d0;
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    transform: rotate(0deg);
+}
+
+.entrée-1:hover .menu-validation {
+    width: 30%;
+    transition: all 1.5s;
+}
+.entrée-1:hover .menu-validation .fa-check {
+    visibility: visible;
+    transition: all 1.5s;
+    animation: ouverture 1s;
+}
+
+.entrée-2{
+    width: 95%;
+    height: 55px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 10px;
+    animation: apparition 1s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+}
+
+.entrée-3{
+    width: 95%;
+    height: 55px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 10px;
+    animation: apparition 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: both;
 }
 
 /* PLATS */
@@ -189,13 +253,40 @@ h2{
     border-top: 6px solid #99E2D0;
 }
 
-.plat-de-résistance{
+.plat-de-résistance-1{
     width: 95%;
     height: 55px;
     background: #fff;
     border-radius: 10px;
     display: flex;
     margin-bottom: 10px;
+    animation: apparition 1s;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+}
+
+.plat-de-résistance-2{
+    width: 95%;
+    height: 55px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 10px;
+    animation: apparition 1s;
+    animation-delay: 2.5s;
+    animation-fill-mode: both;
+}
+
+.plat-de-résistance-3{
+    width: 95%;
+    height: 55px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 10px;
+    animation: apparition 1s;
+    animation-delay: 3s;
+    animation-fill-mode: both;
 }
 
 /* DESSERTS */
@@ -212,13 +303,40 @@ h2{
     border-top: 6px solid #99E2D0;
 }
 
-.dessert{
+.dessert-1{
     width: 95%;
     height: 55px;
     background: #fff;
     border-radius: 10px;
     display: flex;
     margin-bottom: 10px;
+    animation: apparition 1s;
+    animation-delay: 3.5s;
+    animation-fill-mode: both;
+}
+
+.dessert-2{
+    width: 95%;
+    height: 55px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 10px;
+    animation: apparition 1s;
+    animation-delay: 4s;
+    animation-fill-mode: both;
+}
+
+.dessert-3{
+    width: 95%;
+    height: 55px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 10px;
+    animation: apparition 1s;
+    animation-delay: 4.5s;
+    animation-fill-mode: both;
 }
 
 /* BTN COMMANDE */
@@ -279,3 +397,44 @@ footer{
     color: #ffffff;
     text-decoration: none;
 }
+
+/* KEYFRAMES APPARITION MENU */
+ 
+@keyframes apparation {
+    0% {
+      opacity: 0;
+      transform: translateY(10%);
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes apparition {
+    from {
+      opacity: 0%;
+      visibility: hidden;
+    }
+    to {
+      opacity: 100%;
+    }
+} 
+
+/* KEYFRAMES ICONE VALIDATION */
+
+@keyframes ouverture {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(720deg);
+    }
+  }
+  @keyframes fermeture {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-720deg);
+    }
+  }
+  
