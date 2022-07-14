@@ -62,10 +62,9 @@ body{
     object-fit: cover;
 }
 
-/* MAIN */
-.menu{
+.main-footer{
     width: 100%;
-    height: 600px;
+    height: auto;
     margin-top: -50px;
     background: #f2f2f2;
     border-top-left-radius: 60px;
@@ -73,6 +72,14 @@ body{
     position: absolute;
     z-index: 1;
 }
+
+/* MAIN */
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+/* TITRE + ANIMATION COEUR */
 h1{
     margin-top: 50px;
     display: flex;
@@ -105,18 +112,142 @@ h1 span{
 
 }
 
+/* MENU */
+.grille-menu{
+    width: 100%;
+    height: auto;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CLASSE GENERAL */
 h2{
     text-transform: uppercase;
     font-weight: 300;
     margin-top: 20px;
-    margin-left: 35px;
     padding-bottom: 5px;
 }
-.border-h2{
+
+.plat{
+    width: 80%;
+}
+.plat span{
+    display: block;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.plat span:nth-child(2){
+    font-weight: 100;
+}
+.prix{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+/* ---------------- */
+
+/* ENTREES */
+.grille-entrées{
+    width: 32%;
+    height: auto;
+    background: #f2f2f2;
+}
+
+.border-h2-entrées{
     width: 60px;
     height: 5px;
-    margin-left: 35px;
+    margin-bottom: 15px;
     border-top: 6px solid #99E2D0;
+}
+
+.entrées{
+    width: 95%;
+    height: 55px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+/* PLATS */
+.grille-plats{
+    width: 32%;
+    height: auto;
+    background: #f2f2f2;
+}
+
+.border-h2-plats{
+    width: 60px;
+    height: 5px;
+    margin-bottom: 15px;
+    border-top: 6px solid #99E2D0;
+}
+
+.plat-de-résistance{
+    width: 95%;
+    height: 55px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+/* DESSERTS */
+.grille-desserts{
+    width: 32%;
+    height: auto;
+    background: #f2f2f2;
+}
+
+.border-h2-desserts{
+    width: 60px;
+    height: 5px;
+    margin-bottom: 15px;
+    border-top: 6px solid #99E2D0;
+}
+
+.dessert{
+    width: 95%;
+    height: 55px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+/* BTN COMMANDE */
+.btn-commande{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    width: 300px;
+    height: 70px;
+    border-radius: 40px;
+    box-shadow: 0 3px 12px #8d8d8d;
+    margin: 60px 0 60px 0;
+    background-image: linear-gradient(to top left, #9356DC, #FF79DA);
+    border: none;
+    cursor: pointer;
+}
+
+.btn span{
+    color: #f1f1f1;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.btn:hover{
+    box-shadow: 0 3px 12px #1a1a1a;
+    opacity: 0.8;
 }
 
 /* FOOTER */
