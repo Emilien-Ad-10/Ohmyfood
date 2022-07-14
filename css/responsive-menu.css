@@ -1,6 +1,5 @@
 @media screen and (max-width: 974px) {
     /* FOOTER */
-
     .h3-footer{
         padding-top: 20px;
     }
@@ -28,23 +27,89 @@
 
 @media screen and (max-width: 850px){
     /* HEADER */
-    
     .logo .desktop-logo{
         display: none;
     }
-    
     .logo .responsive-logo{
         display: flex;
         margin-top: 30px;
         margin-bottom: 15px;
     }
 }
+@media screen and (max-width: 550px) {
+    /* HEADER */
+    .fa-arrow-left{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .la-palette-du-gout{
+        height: 350px;
+    }
+    
+    /* MAIN */
+    h1 span{
+        font-size: 2rem;
+    }
+    .fa-heart{
+        font-size: 30px;
+        margin-top: 5px;
+    }
+    .fa-heart:active{
+        font-size: 30px;
+    }
+    
+    h2{
+        font-size: 20px;
+    }
+    .border-h2{
+        width: 50px;
+        border-top: 4px solid #99E2D0;
+    }
 
-
-/* FOOTER */
+}
 
 /* RESPONSIVE MOBILE */
 @media screen and (max-width: 375px) {
+    /* HEADER */
+    .fa-arrow-left{
+        font-size: 20px;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    .responsive-mobile{
+        display: flex;
+        padding: 15px 0 15px 0;
+    }
+    .logo .responsive-logo{
+        display: none;
+    }
+    .la-palette-du-gout{
+        height: 260px;
+    }
+    
+    /* MAIN */
+    h1 span{
+        font-size: 1.6rem;
+    }
+    .fa-heart{
+        font-size: 25px;
+        margin-top: 5px;
+    }
+    .fa-heart:active{
+        font-size: 22px;
+    }
+
+    h2{
+        font-size: 17px;
+        margin-left: 30px;
+    }
+    .border-h2{
+        margin-left: 30px;
+        width: 45px;
+        border-top: 2px solid #99E2D0;
+    }
+    
+    /* FOOTER */
     .h3-footer{
         font-size: 1.5rem;
         text-align: left;

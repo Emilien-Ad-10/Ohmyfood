@@ -19,7 +19,6 @@ body{
 }
 
 /* HEADER */
-
 .logo{
     display: flex;
     justify-content: center;
@@ -255,7 +254,6 @@ h2{
 }
 
 /* SECTION RESTAURANTS */
-
 .restaurants{
     width: 100%;
     height: auto;
@@ -332,7 +330,6 @@ h2{
 }
 
 /* ENCADRE "NOUVEAU" SUR LES CARTES 1 ET 2 */
-
 .nouveau{
     width: 100px;
     height: auto;
@@ -438,7 +435,6 @@ h3 span{
 }
 
 /* FOOTER */
-
 footer{
     background: #222;
     width: 100%;
