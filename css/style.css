@@ -20,12 +20,27 @@ body{
 
 /* LOADER */
 
-/* .loader{
+.loader{
+    position: fixed;
+    inset: 0;
+    background: #333;
+    z-index: 1000;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     min-height: 100vh;
+    animation: disparition 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes disparition{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        visibility: hidden;
+    }
 }
 
 .cercle{
@@ -72,7 +87,7 @@ body{
     50%{
         color: #ffffff;
     }
-} */
+}
 
 /* HEADER */
 .logo{
