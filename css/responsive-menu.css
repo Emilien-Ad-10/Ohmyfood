@@ -101,12 +101,21 @@
 
     h2{
         font-size: 17px;
-        margin-left: 30px;
     }
     .border-h2{
         margin-left: 30px;
         width: 45px;
         border-top: 2px solid #99E2D0;
+    }
+
+    .grille-entrées{
+        padding-left: 0;
+    }
+    .grille-plats{
+        padding-left: 0;
+    }
+    .grille-desserts{
+        padding-left: 0;
     }
     
     /* FOOTER */

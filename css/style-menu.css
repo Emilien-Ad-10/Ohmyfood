@@ -118,6 +118,7 @@ h1 span{
     height: auto;
     background: #f2f2f2;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -132,6 +133,9 @@ h2{
 
 .plat{
     width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .plat span{
     display: block;
@@ -148,34 +152,6 @@ h2{
     align-items: center;
     padding-top: 20px;
     padding-left: 20px;
-}
-
-/* ---------------- */
-
-/* ENTREES */
-.grille-entrées{
-    width: 32%;
-    height: auto;
-    background: #f2f2f2;
-}
-
-.border-h2-entrées{
-    width: 60px;
-    height: 5px;
-    margin-bottom: 15px;
-    border-top: 6px solid #99E2D0;
-}
-
-.entrée-1{
-    width: 95%;
-    height: 55px;
-    background: #fff;
-    border-radius: 10px;
-    display: flex;
-    margin-bottom: 10px;
-    animation: apparition 1s;
-    animation-delay: .5s;
-    animation-fill-mode: both;
 }
 
 .menu-validation {
@@ -205,6 +181,35 @@ h2{
     transform: rotate(0deg);
 }
 
+/* ---------------- */
+
+/* ENTREES */
+.grille-entrées{
+    width: 100%;
+    padding-left: 30px;
+    height: auto;
+    background: #f2f2f2;
+}
+
+.border-h2-entrées{
+    width: 60px;
+    height: 5px;
+    margin-bottom: 15px;
+    border-top: 6px solid #99E2D0;
+}
+
+.entrée-1{
+    width: 95%;
+    height: 55px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 10px;
+    animation: apparition 1s;
+    animation-delay: .5s;
+    animation-fill-mode: both;
+}
+
 .entrée-1:hover .menu-validation {
     width: 30%;
     transition: all 1.5s;
@@ -227,6 +232,16 @@ h2{
     animation-fill-mode: both;
 }
 
+.entrée-2:hover .menu-validation {
+    width: 30%;
+    transition: all 1.5s;
+}
+.entrée-2:hover .menu-validation .fa-check {
+    visibility: visible;
+    transition: all 1.5s;
+    animation: ouverture 1s;
+}
+
 .entrée-3{
     width: 95%;
     height: 55px;
@@ -239,11 +254,22 @@ h2{
     animation-fill-mode: both;
 }
 
+.entrée-3:hover .menu-validation {
+    width: 30%;
+    transition: all 1.5s;
+}
+.entrée-3:hover .menu-validation .fa-check {
+    visibility: visible;
+    transition: all 1.5s;
+    animation: ouverture 1s;
+}
+
 /* PLATS */
 .grille-plats{
-    width: 32%;
+    width: 100%;
     height: auto;
     background: #f2f2f2;
+    padding-left: 30px;
 }
 
 .border-h2-plats{
@@ -265,6 +291,16 @@ h2{
     animation-fill-mode: both;
 }
 
+.plat-de-résistance-1:hover .menu-validation {
+    width: 30%;
+    transition: all 1.5s;
+}
+.plat-de-résistance-1:hover .menu-validation .fa-check {
+    visibility: visible;
+    transition: all 1.5s;
+    animation: ouverture 1s;
+}
+
 .plat-de-résistance-2{
     width: 95%;
     height: 55px;
@@ -275,6 +311,16 @@ h2{
     animation: apparition 1s;
     animation-delay: 2.5s;
     animation-fill-mode: both;
+}
+
+.plat-de-résistance-2:hover .menu-validation {
+    width: 30%;
+    transition: all 1.5s;
+}
+.plat-de-résistance-2:hover .menu-validation .fa-check {
+    visibility: visible;
+    transition: all 1.5s;
+    animation: ouverture 1s;
 }
 
 .plat-de-résistance-3{
@@ -289,11 +335,22 @@ h2{
     animation-fill-mode: both;
 }
 
+.plat-de-résistance-3:hover .menu-validation {
+    width: 30%;
+    transition: all 1.5s;
+}
+.plat-de-résistance-3:hover .menu-validation .fa-check {
+    visibility: visible;
+    transition: all 1.5s;
+    animation: ouverture 1s;
+}
+
 /* DESSERTS */
 .grille-desserts{
-    width: 32%;
+    width: 100%;
     height: auto;
     background: #f2f2f2;
+    padding-left: 30px;
 }
 
 .border-h2-desserts{
@@ -315,6 +372,16 @@ h2{
     animation-fill-mode: both;
 }
 
+.dessert-1:hover .menu-validation {
+    width: 30%;
+    transition: all 1.5s;
+}
+.dessert-1:hover .menu-validation .fa-check {
+    visibility: visible;
+    transition: all 1.5s;
+    animation: ouverture 1s;
+}
+
 .dessert-2{
     width: 95%;
     height: 55px;
@@ -327,6 +394,16 @@ h2{
     animation-fill-mode: both;
 }
 
+.dessert-2:hover .menu-validation {
+    width: 30%;
+    transition: all 1.5s;
+}
+.dessert-2:hover .menu-validation .fa-check {
+    visibility: visible;
+    transition: all 1.5s;
+    animation: ouverture 1s;
+}
+
 .dessert-3{
     width: 95%;
     height: 55px;
@@ -337,6 +414,16 @@ h2{
     animation: apparition 1s;
     animation-delay: 4.5s;
     animation-fill-mode: both;
+}
+
+.dessert-3:hover .menu-validation {
+    width: 30%;
+    transition: all 1.5s;
+}
+.dessert-3:hover .menu-validation .fa-check {
+    visibility: visible;
+    transition: all 1.5s;
+    animation: ouverture 1s;
 }
 
 /* BTN COMMANDE */
