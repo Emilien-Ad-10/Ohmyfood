@@ -56,7 +56,7 @@ body{
     position: absolute;
     z-index: -1;
 }
-.la-palette-du-gout{
+.la-carte{
     width: 100%;
     height: 500px;
     object-fit: cover;
@@ -102,7 +102,7 @@ h1 span{
     transition: background-position ease-out .6s;
     background-size: 270%;
     cursor: pointer;
-    margin-right: 35px;
+    margin-right: 70px;
 }
 
 .fa-heart:active{
@@ -132,26 +132,24 @@ h2{
 }
 
 .plat{
-    width: 80%;
+    width: 85%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.plat span{
-    display: block;
+.plat p{
     padding-left: 5px;
     padding-top: 5px;
 }
-.plat span:nth-child(2){
+.plat p:nth-child(2){
     font-weight: 100;
 }
 .prix{
-    width: 20%;
+    width: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
-    padding-left: 20px;
+    padding: 20px 20px 0 20px;
 }
 
 .menu-validation {
@@ -259,6 +257,28 @@ h2{
     transition: all 1.5s;
 }
 .entrée-3:hover .menu-validation .fa-check {
+    visibility: visible;
+    transition: all 1.5s;
+    animation: ouverture 1s;
+}
+
+.entrée-4{
+    width: 95%;
+    height: 55px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 10px;
+    animation: apparition 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: both;
+}
+
+.entrée-4:hover .menu-validation {
+    width: 30%;
+    transition: all 1.5s;
+}
+.entrée-4:hover .menu-validation .fa-check {
     visibility: visible;
     transition: all 1.5s;
     animation: ouverture 1s;

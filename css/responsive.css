@@ -150,15 +150,38 @@
         flex-direction: column;
     }
     .étapes div{
-        margin-bottom: 5px;
+        margin-bottom: 20px;
     }
     .première, .deuxième, .troisième{
         margin-top: 20px;
     }
 
-    /* FONCTIONNEMENT-CHOIX */
-    .fa-mobile-screen-button{
-        margin-left: -12px;
+    .choix .fa-mobile-screen-button{
+        margin-left: 14%;
+    }
+    .composition .fa-list-ul{
+        margin-left: 14%;
+    }
+    .dégustation .fa-store{
+        margin-left: 14%;
+    }
+    .choix span{
+        text-align: left;
+    }
+    .composition span{
+        text-align: left;
+        margin-left: 0;
+    }
+    .dégustation span{
+        text-align: left;
+        margin-left: 0;
+    }
+
+    /* SECTION RESTAURANTS */
+
+    h2{
+        padding: 0;
+        margin-left: -10px;
     }
 
     /* FOOTER */

@@ -88,12 +88,19 @@
     }
     
     /* MAIN */
+    h1{
+        margin-left: 5px;
+    }
+    h1 span{
+        margin-left: 5px;
+    }
     h1 span{
         font-size: 1.6rem;
     }
     .fa-heart{
         font-size: 25px;
         margin-top: 5px;
+        margin-right: 20px;
     }
     .fa-heart:active{
         font-size: 22px;
@@ -102,20 +109,34 @@
     h2{
         font-size: 17px;
     }
-    .border-h2{
-        margin-left: 30px;
-        width: 45px;
+    .border-h2-entrées{
+        width: 40px;
+        height: 3px;
+        margin-bottom: 15px;
+        border-top: 2px solid #99E2D0;
+    }
+    .border-h2-plats{
+        width: 40px;
+        height: 3px;
+        margin-bottom: 15px;
+        border-top: 2px solid #99E2D0;
+    }
+    .border-h2-desserts{
+        width: 40px;
+        height: 3px;
+        margin-bottom: 15px;
         border-top: 2px solid #99E2D0;
     }
 
     .grille-entrées{
-        padding-left: 0;
+        padding-left: 5px;
     }
+
     .grille-plats{
-        padding-left: 0;
+        padding-left: 5px;
     }
     .grille-desserts{
-        padding-left: 0;
+        padding-left: 5px;
     }
     
     /* FOOTER */
