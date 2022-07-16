@@ -42,7 +42,7 @@
         font-size: 20px;
         margin-top: 5px;
     }
-    .la-palette-du-gout{
+    .la-carte{
         height: 350px;
     }
     
@@ -83,7 +83,7 @@
     .logo .responsive-logo{
         display: none;
     }
-    .la-palette-du-gout{
+    .la-carte{
         height: 260px;
     }
     

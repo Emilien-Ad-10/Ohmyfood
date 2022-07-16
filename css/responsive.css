@@ -132,9 +132,13 @@
     }
 
     /* PRESENTATION */
+    h2{
+        margin-bottom: 10px;
+    }
+
     .btn_header{
         width: 238px;
-        height: 50px;
+        height: 55px;
     }
     .btn_header span{
         font-size: 1rem;
@@ -143,7 +147,7 @@
     /* FONCTIONNEMENT */
     .fonctionnement h2{
         text-align: left;
-        margin-left: -20px;
+        margin-left: -30px;
         margin-bottom: 30px;
     }
     .étapes{
@@ -177,17 +181,11 @@
         margin-left: 0;
     }
 
-    /* SECTION RESTAURANTS */
-
-    h2{
-        padding: 0;
-        margin-left: -10px;
-    }
-
     /* FOOTER */
     .h3-footer{
         font-size: 1.5rem;
         text-align: left;
+        padding-top: 15px;
         margin-left: 40px;
         font-weight: 100;
     }
