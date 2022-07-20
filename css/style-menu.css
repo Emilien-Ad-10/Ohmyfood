@@ -92,7 +92,7 @@ h1 span{
 }
 
 .fa-heart{
-    font-size: 45px;
+    font-size: 50px;
     color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #1a1a1a;
@@ -108,7 +108,7 @@ h1 span{
 .fa-heart:active{
     background-position: -70%;
     -webkit-text-stroke-color: #ffffff;
-    font-size: 47px;
+    font-size: 50px;
 
 }
 

@@ -103,12 +103,12 @@
         font-size: 1.6rem;
     }
     .fa-heart{
-        font-size: 25px;
-        margin-top: 5px;
+        font-size: 30px;
+        margin-top: 0;
         margin-right: 20px;
     }
     .fa-heart:active{
-        font-size: 22px;
+        font-size: 33px;
     }
 
     h2{
