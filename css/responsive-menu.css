@@ -11,9 +11,14 @@
         margin-bottom: 5px;
         margin-left: 35px;
     }
+    .footer-info a:nth-child(1){
+        margin-left: 40px;
+    }
     .footer-info i{
         font-size: 15px;
+        margin-right: 5px;
     }
+    
     .footer-info :nth-child(2){
         margin-left: 35px;
     }

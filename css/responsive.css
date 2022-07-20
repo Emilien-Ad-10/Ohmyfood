@@ -12,6 +12,7 @@
     }
     .footer-info i{
         font-size: 15px;
+        margin-right: 10px;
     }
     .footer-info :nth-child(2){
         margin-left: 65px;
