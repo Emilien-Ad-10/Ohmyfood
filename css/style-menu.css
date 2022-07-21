@@ -223,11 +223,11 @@ h2{
     animation-fill-mode: both;
 }
   
-.entrée-1:hover .menu-validation {
+.entrée-1:active .menu-validation {
     width: 30%;
     transition: all 1.5s;
 }
-.entrée-1:hover .fa-check {
+.entrée-1:active .fa-check {
     visibility: visible;
     transition: 1.2s;
     transform: rotate(720deg);
@@ -248,11 +248,11 @@ h2{
     animation-fill-mode: both;
 }
   
-.entrée-2:hover .menu-validation {
+.entrée-2:active .menu-validation {
     width: 30%;
     transition: all 1.5s;
 }
-.entrée-2:hover .fa-check {
+.entrée-2:active .fa-check {
     visibility: visible;
     transition: 1.2s;
     transform: rotate(720deg);
@@ -273,11 +273,11 @@ h2{
     animation-fill-mode: both;
 }
   
-.entrée-3:hover .menu-validation {
+.entrée-3:active .menu-validation {
     width: 30%;
     transition: all 1.5s;
 }
-.entrée-3:hover .fa-check {
+.entrée-3:active .fa-check {
     visibility: visible;
     transition: 1.2s;
     transform: rotate(720deg);
@@ -298,11 +298,11 @@ h2{
     animation-fill-mode: both;
 }
   
-.entrée-4:hover .menu-validation {
+.entrée-4:active .menu-validation {
     width: 30%;
     transition: all 1.5s;
 }
-.entrée-4:hover .fa-check {
+.entrée-4:active .fa-check {
     visibility: visible;
     transition: 1.2s;
     transform: rotate(720deg);
@@ -338,11 +338,11 @@ h2{
     animation-fill-mode: both;
 }
   
-.plat-de-résistance-1:hover .menu-validation {
+.plat-de-résistance-1:active .menu-validation {
     width: 30%;
     transition: all 1.5s;
 }
-.plat-de-résistance-1:hover .fa-check {
+.plat-de-résistance-1:active .fa-check {
     visibility: visible;
     transition: 1.2s;
     transform: rotate(720deg);
@@ -363,11 +363,11 @@ h2{
     animation-fill-mode: both;
 }
   
-.plat-de-résistance-2:hover .menu-validation {
+.plat-de-résistance-2:active .menu-validation {
     width: 30%;
     transition: all 1.5s;
 }
-.plat-de-résistance-2:hover .fa-check {
+.plat-de-résistance-2:active .fa-check {
     visibility: visible;
     transition: 1.2s;
     transform: rotate(720deg);
@@ -388,11 +388,11 @@ h2{
     animation-fill-mode: both;
 }
   
-.plat-de-résistance-3:hover .menu-validation {
+.plat-de-résistance-3:active .menu-validation {
     width: 30%;
     transition: all 1.5s;
 }
-.plat-de-résistance-3:hover .fa-check {
+.plat-de-résistance-3:active .fa-check {
     visibility: visible;
     transition: 1.2s;
     transform: rotate(720deg);
@@ -428,11 +428,11 @@ h2{
     animation-fill-mode: both;
 }
   
-.dessert-1:hover .menu-validation {
+.dessert-1:active .menu-validation {
     width: 30%;
     transition: all 1.5s;
 }
-.dessert-1:hover .fa-check {
+.dessert-1:active .fa-check {
     visibility: visible;
     transition: 1.2s;
     transform: rotate(720deg);
@@ -453,11 +453,11 @@ h2{
     animation-fill-mode: both;
 }
   
-.dessert-2:hover .menu-validation {
+.dessert-2:active .menu-validation {
     width: 30%;
     transition: all 1.5s;
 }
-.dessert-2:hover .fa-check {
+.dessert-2:active .fa-check {
     visibility: visible;
     transition: 1.2s;
     transform: rotate(720deg);
@@ -478,11 +478,11 @@ h2{
     animation-fill-mode: both;
 }
   
-.dessert-3:hover .menu-validation {
+.dessert-3:active .menu-validation {
     width: 30%;
     transition: all 1.5s;
 }
-.dessert-3:hover .fa-check {
+.dessert-3:active .fa-check {
     visibility: visible;
     transition: 1.2s;
     transform: rotate(720deg);

@@ -85,7 +85,7 @@ body{
 }
 @keyframes text{
     50%{
-        color: #ffffff;
+        color: #333;
     }
 }
 
