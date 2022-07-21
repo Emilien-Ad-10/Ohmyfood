@@ -542,6 +542,10 @@ footer{
     align-items: center;
 }
 
+.footer-info i{
+    margin-right: 20px;
+}
+
 .footer-info a{
     margin-left: 70px;
     color: #ffffff;

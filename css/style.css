@@ -415,11 +415,11 @@ h2{
 .nouveau{
     width: 100px;
     height: auto;
-    color: #99e2d0;
+    color: #019973;
     text-align: center;
     padding: 5px;
-    border: 1px solid rgba(153, 226, 208, .5);
-    background: rgba(153, 226, 208, .5);
+    border: 1px solid rgb(153, 226, 208);
+    background: rgb(153, 226, 208);
     position: absolute;
     top: 20px;
     right: 10px;
