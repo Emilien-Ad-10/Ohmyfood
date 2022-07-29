@@ -209,7 +209,10 @@ h2{
     border-top: 6px solid #99E2D0;
 }
 
-.entrée-1 {
+.entrée-1,
+.entrée-2,
+.entrée-3,
+.entrée-4{
     width: 95%;
     height: 55px;
     display: flex;
@@ -220,95 +223,41 @@ h2{
     overflow: hidden;
     cursor: pointer;
     animation: apparition 1s;
-    animation-delay: .5s;
     animation-fill-mode: both;
 }
-  
-.entrée-1:active .menu-validation {
-    width: 30%;
-    transition: all 1.5s;
-}
-.entrée-1:active .fa-check {
-    visibility: visible;
-    transition: 1.2s;
-    transform: rotate(720deg);
+
+.entrée-1 {
+    animation-delay: .5s;
 }
 
 .entrée-2 {
-    width: 95%;
-    height: 55px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    background-color: #ffffff;
-    overflow: hidden;
-    cursor: pointer;
-    animation: apparition 1s;
     animation-delay: 1s;
-    animation-fill-mode: both;
-}
-  
-.entrée-2:active .menu-validation {
-    width: 30%;
-    transition: all 1.5s;
-}
-.entrée-2:active .fa-check {
-    visibility: visible;
-    transition: 1.2s;
-    transform: rotate(720deg);
 }
 
 .entrée-3 {
-    width: 95%;
-    height: 55px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    background-color: #ffffff;
-    overflow: hidden;
-    cursor: pointer;
-    animation: apparition 1s;
     animation-delay: 1.5s;
-    animation-fill-mode: both;
-}
-  
-.entrée-3:active .menu-validation {
-    width: 30%;
-    transition: all 1.5s;
-}
-.entrée-3:active .fa-check {
-    visibility: visible;
-    transition: 1.2s;
-    transform: rotate(720deg);
 }
 
 .entrée-4 {
-    width: 95%;
-    height: 55px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    background-color: #ffffff;
-    overflow: hidden;
-    cursor: pointer;
-    animation: apparition 1s;
     animation-delay: 2s;
-    animation-fill-mode: both;
 }
-  
+
+.entrée-1:active .menu-validation,
+.entrée-2:active .menu-validation,
+.entrée-3:active .menu-validation,
 .entrée-4:active .menu-validation {
     width: 30%;
     transition: all 1.5s;
 }
+.entrée-1:active .fa-check,
+.entrée-2:active .fa-check,
+.entrée-3:active .fa-check,
 .entrée-4:active .fa-check {
     visibility: visible;
     transition: 1.2s;
     transform: rotate(720deg);
 }
-
+  
 /* PLATS */
 .grille-plats{
     width: 100%;
@@ -324,7 +273,9 @@ h2{
     border-top: 6px solid #99E2D0;
 }
 
-.plat-de-résistance-1 {
+.plat-de-résistance-1,
+.plat-de-résistance-2,
+.plat-de-résistance-3{
     width: 95%;
     height: 55px;
     display: flex;
@@ -335,64 +286,29 @@ h2{
     overflow: hidden;
     cursor: pointer;
     animation: apparition 1s;
-    animation-delay: 2.5s;
     animation-fill-mode: both;
 }
-  
-.plat-de-résistance-1:active .menu-validation {
-    width: 30%;
-    transition: all 1.5s;
-}
-.plat-de-résistance-1:active .fa-check {
-    visibility: visible;
-    transition: 1.2s;
-    transform: rotate(720deg);
+
+.plat-de-résistance-1 {
+    animation-delay: 2.5s;
 }
 
 .plat-de-résistance-2 {
-    width: 95%;
-    height: 55px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    background-color: #ffffff;
-    overflow: hidden;
-    cursor: pointer;
-    animation: apparition 1s;
     animation-delay: 3s;
-    animation-fill-mode: both;
-}
-  
-.plat-de-résistance-2:active .menu-validation {
-    width: 30%;
-    transition: all 1.5s;
-}
-.plat-de-résistance-2:active .fa-check {
-    visibility: visible;
-    transition: 1.2s;
-    transform: rotate(720deg);
 }
 
 .plat-de-résistance-3 {
-    width: 95%;
-    height: 55px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    background-color: #ffffff;
-    overflow: hidden;
-    cursor: pointer;
-    animation: apparition 1s;
     animation-delay: 3.5s;
-    animation-fill-mode: both;
 }
   
-.plat-de-résistance-3:active .menu-validation {
+.plat-de-résistance-1:active .menu-validation,
+.plat-de-résistance-2:active .menu-validation,
+.plat-de-résistance-3:active .menu-validation{
     width: 30%;
     transition: all 1.5s;
 }
+.plat-de-résistance-1:active .fa-check,
+.plat-de-résistance-2:active .fa-check,
 .plat-de-résistance-3:active .fa-check {
     visibility: visible;
     transition: 1.2s;
@@ -414,56 +330,8 @@ h2{
     border-top: 6px solid #99E2D0;
 }
 
-.dessert-1 {
-    width: 95%;
-    height: 55px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    background-color: #ffffff;
-    overflow: hidden;
-    cursor: pointer;
-    animation: apparition 1s;
-    animation-delay: 4s;
-    animation-fill-mode: both;
-}
-  
-.dessert-1:active .menu-validation {
-    width: 30%;
-    transition: all 1.5s;
-}
-.dessert-1:active .fa-check {
-    visibility: visible;
-    transition: 1.2s;
-    transform: rotate(720deg);
-}
-
-.dessert-2 {
-    width: 95%;
-    height: 55px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    background-color: #ffffff;
-    overflow: hidden;
-    cursor: pointer;
-    animation: apparition 1s;
-    animation-delay: 4.5s;
-    animation-fill-mode: both;
-}
-  
-.dessert-2:active .menu-validation {
-    width: 30%;
-    transition: all 1.5s;
-}
-.dessert-2:active .fa-check {
-    visibility: visible;
-    transition: 1.2s;
-    transform: rotate(720deg);
-}
-
+.dessert-1,
+.dessert-2,
 .dessert-3 {
     width: 95%;
     height: 55px;
@@ -475,20 +343,34 @@ h2{
     overflow: hidden;
     cursor: pointer;
     animation: apparition 1s;
-    animation-delay: 5s;
     animation-fill-mode: both;
 }
+
+.dessert-1 {
+    animation-delay: 4s;    
+}
+
+.dessert-2 {
+    animation-delay: 4.5s;
+}
+
+.dessert-3 {
+    animation-delay: 5s;
+}
   
-.dessert-3:active .menu-validation {
+.dessert-1:active .menu-validation,
+.dessert-2:active .menu-validation,
+.dessert-3:active .menu-validation{
     width: 30%;
     transition: all 1.5s;
 }
+.dessert-1:active .fa-check,
+.dessert-2:active .fa-check,
 .dessert-3:active .fa-check {
     visibility: visible;
     transition: 1.2s;
     transform: rotate(720deg);
 }
-
 
 /* BTN COMMANDE */
 .btn-commande{
